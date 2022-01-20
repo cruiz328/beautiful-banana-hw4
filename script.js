@@ -31,19 +31,7 @@ currentIndex = 0; var questions = [
    const highScores =JSON.parse(localStorage.getItem("highScores")) || [];
    
 
-   //   INTIATORS
-   startBtn.addEventListener('click', startQuiz);
-   answer1.addEventListener('click', checkAnswer);
-   answer2.addEventListener('click', checkAnswer);
-   answer3.addEventListener('click', checkAnswer);
-   answer4.addEventListener('click', checkAnswer);
-   initialsBtn.addEventListener('click', mySave);
-   scoreSheet.addEventListener('click', showScores);
    
-   
-
-
-
    var startBtn = document.getElementById("start-btn");
    var quizContainer = document.getElementById('quiz');
    
