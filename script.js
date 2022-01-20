@@ -1,8 +1,10 @@
 // variables 
+var questionsEl = document.getElementById('.questions');
 var gameTime;
 var timeLeft = 60;
-var startBtn = document.querySelector('#start');
-currentIndex = 0; var questions = [
+var startBtn = document.querySelector('#start-btn');
+currentQuestionIndex = 0; 
+var questions = [
      {
        queNum: 1,
         question: "Who is Batman",
@@ -25,23 +27,27 @@ currentIndex = 0; var questions = [
         queNum: 4,
         question: "what universe is the avengers set in?",
        answers: ["marvel cinematic universe", "dc comics cinematic universe", "star wars cinematic universe"],
-       correctAnswer: "bruce wayne"
+       correctAnswer: "marvel cinematic universe          "
     }
    ];
    const highScores =JSON.parse(localStorage.getItem("highScores")) || [];
    
 
-   
+
    var startBtn = document.getElementById("start-btn");
    var quizContainer = document.getElementById('quiz');
    
    startBtn.addEventListener("click", function(){
+       console.log("start button works");
+
      nextQuestion()
    });
    
    
    function nextQuestion() {
-     
+       var currentQuestion = questions[currentQuestionIndex];
+       currentQuestionIndex ++;
+      var 
      //1. grab the n-th object in questions array
      console.log(questions)
      console.log(questions[0])
