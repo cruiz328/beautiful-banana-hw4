@@ -1,17 +1,22 @@
 body{
-    background-color: red;
+    background-color: slategrey;
+    border: 1px solid black;
+    width: 100%;
+    display: inline-block;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 20px;
+    background-repeat: no-repeat, repeat;
     min-height: 100vh
 }
 
-h3{
-    text-align: center
-}
+
 header{
     background-image: linear-gradient( #228B22, #32CD32);
     border: 1px solid black;
     width: 100%;
     display: inline-block;
-    
     top: 0;
     margin: 0;
     padding: 20px;
@@ -24,19 +29,12 @@ header{
     font-size: 3rem;
     text-align: center;
     margin: 40px 0px;
+    text-shadow: 2px 2px silver;
 }
-body{
-    background-image: linear-gradient(#32CD32, #228B22);
-    border: 1px solid black;
-    width: 100%;
-    display: inline-block;
-    position: sticky;
-    top: 0;
-    margin: 0;
-    padding: 20px;
-    background-repeat: no-repeat, repeat;
+.nerdhood{
+    text-align: center;
+    text-shadow: 2px 2px silver;
 }
-
 
 #start-btn{
     padding: 10px 35px;
