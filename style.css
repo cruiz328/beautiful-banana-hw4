@@ -11,7 +11,7 @@ header{
     border: 1px solid black;
     width: 100%;
     display: inline-block;
-    position: sticky;
+    
     top: 0;
     margin: 0;
     padding: 20px;
@@ -45,7 +45,7 @@ body{
     color: white;
     outline: none;
     transition: .6s ease;
-    position: sticky;
+   
 }
 #start-btn:hover{
     cursor: pointer;
