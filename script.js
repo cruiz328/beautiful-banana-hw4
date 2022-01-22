@@ -38,7 +38,7 @@ var startBtn = document.getElementById("start-btn");
 var quizContainer = document.getElementById('quiz');
 
 startBtn.addEventListener("click", function () {
-    console.log("start button works");
+    console.log("nice work champ");
 
     nextQuestion()
 });
