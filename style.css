@@ -37,6 +37,7 @@ header{
     font-size: 3rem;
     text-align: center;
     margin: 10px 0px;
+    display: inline-block;
 }
 
 .banana{
